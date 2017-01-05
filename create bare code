@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Create Bare Code</title>
+</head>
+<body>
+  
+  <p><input id="T2" name="T2" size="20" type="text" value="votre nom">
+    <button onclick="document.getElementById('IM').src= 'http://www.barcodesinc.com/generator/image.php?style=165&amp;type=C39&amp;width=350&amp;height=100&amp;xres=1&amp;font=3&amp;code=' + document.getElementById('T2').value.toUpperCase();refresh; return false">Faire un code barre</button>
+    <br> <br> <img src="" alt="code barre" class="media-object img-rounded" width="350" id="IM"></p>
+
+</body>
+</html>
